@@ -10,9 +10,12 @@ import card from "../assets/images/advantages/Group (1).png";
 
 const Advantages = () => {
   return (
-    <section className="p-4">
+    <section className="p-4" id="advantages">
       {/* part 1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+      className="grid grid-cols-1 md:grid-cols-2">
         <div className="space-y-5 mt-0 md:mt-20 mx-auto"> 
           <div>
             <h1 className="text-xl font-bold text-[#FF5555] uppercase">advantages</h1>
@@ -50,7 +53,10 @@ const Advantages = () => {
         </div>
       </div>
       {/* part 2 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-96 md:mt-0">
+      <div data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+      className="grid grid-cols-1 md:grid-cols-2 mt-96 md:mt-0">
         <div>
           <div className="relative">
             <img src={star} className="absolute top-0 right-0 h-7" alt="" />

@@ -8,6 +8,8 @@ import profile5 from "../assets/images/testimonials/Ellipse 41.png";
 import png from "../assets/images/testimonials/“.png";
 import star from "../assets/images/testimonials/Star 1.png";
 import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Testimonial = () => {
   const [testimonials, setTestimonials] = useState([]);
@@ -21,16 +23,28 @@ const Testimonial = () => {
   },[])
   //console.log(testimonials)
 
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+
 
   return (
-    <section className="p-4">
-      <div className="max-w-sm mx-auto text-center space-y-3">
+    <section className="p-4" id="testimonial">
+      <div  data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+      className="max-w-sm mx-auto text-center space-y-3">
         <h2 className="uppercase text-xl font-bold">testimonial</h2>
         <h3 className="capitalize text-3xl font-extrabold">what our users <br /> say about us?</h3>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="relative">
+        <div  data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+        className="relative">
           {/* top left */}
           <img src={profile1} className="absolute z-30 h-44 top-5 lg:top-10 lg:left-10" alt="" />
           {/* top right */}
@@ -49,7 +63,9 @@ const Testimonial = () => {
           <img src={circle} className="absolute z-10 xl:top-44" alt="" />
         </div>
         
-        <div className="h-[500px] p-9 mt-96 md:mt-0">
+        <div  data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+        className="h-[500px] p-9 mt-96 md:mt-0">
           <div className="carousel w-full h-full">
             {
               testimonials.map(testimonial => 

@@ -8,12 +8,23 @@ import rightCircle from "../assets/images/banner/Ellipse 2.png";
 import iphone1 from "../assets/images/banner/iPhone-13-Pro-Front.png";
 import iphone2 from "../assets/images/banner/iPhone-13-Pro-Front (1).png";
 import iphone3 from "../assets/images/banner/iPhone-13-Pro-Front (2).png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 p-4">
       {/* left || top */}
-      <div>
+      <div  data-aos="zoom-in-up">
         <div className="relative">
           <img src={star} className="absolute top-0 -left-10 h-7" alt="" />
         </div>
@@ -44,7 +55,7 @@ const Banner = () => {
       </div>
 
       {/* right || below */}
-      <div>
+      <div  data-aos="zoom-in-down">
         <div>
           <div className="relative">
             <img src={iphone1} className="absolute z-30 top-0 left-0 h-[340px] lg:h-[600px]" alt="" />

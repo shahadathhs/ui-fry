@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import star from "../assets/images/faq/Star 1.png"
+import star from "../assets/images/faq/Star 1.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Faq = () => {
   const [faqs, setFaqs] = useState([]);
@@ -13,9 +15,18 @@ const Faq = () => {
   },[])
   //console.log(faqs)
 
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+
   return (
-    <section className="mt-10 p-4">
-      <div className="grid grid-cols-1 md:grid-cols-2">
+    <section data-aos="fade-up" className="mt-10 p-4" id="faq">
+      <div data-aos="fade-down"
+      className="grid grid-cols-1 md:grid-cols-2">
         <div className="pt-16 space-y-5 max-w-md mx-auto">
           <h2 className="text-xl font-bold text-[#FF5555]">FAQ</h2>
           <h1 className="capitalize text-3xl font-extrabold">Frequently asked  questions</h1>

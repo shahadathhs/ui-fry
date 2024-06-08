@@ -6,12 +6,23 @@ import rightStar from "../assets/images/features/star-05.png";
 import icon from "../assets/images/features/Icon.png";
 import cube from "../assets/images/features/cube-04.png";
 import rightCircle from "../assets/images/features/Group 35897.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Features = () => {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
+
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-8 p-4 relative" id="feature">
       {/* left || top */}
-      <div className="mt-8 md:mt-0">
+      <div  data-aos="fade-up" className="mt-8 md:mt-0">
         <div className="relative">
           <img src={star} className="absolute top-0 -left-10 h-7" alt="" />
         </div>
@@ -27,7 +38,9 @@ const Features = () => {
       <div>
         <img src={rightCircle} className="absolute top-96 md:top-0 right-0" alt="" />
       </div>
-      <div className="space-y-4 lg:space-y-8 p-4 absolute top-96 md:top-0 md:right-0 lg:right-16 max-w-sm lg:max-w-md">
+      <div  data-aos="fade-down"
+      className="space-y-4 lg:space-y-8 p-4 absolute top-96 md:top-0 md:right-0 
+      lg:right-16 max-w-sm lg:max-w-md">
         {/* heading */}
         <div>
           <h2 className="text-xl font-bold text-[#FF5555]">Features</h2>

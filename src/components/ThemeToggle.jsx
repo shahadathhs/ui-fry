@@ -7,15 +7,15 @@ const ThemeToggle = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <div className="btn btn-error">
+    <div>
       <label className="swap swap-rotate">
         <input onClick={toggleTheme} type="checkbox" className="theme-controller"  />
         {
           theme === 'light' 
           ?
-          <div className="text-lg"><GoSun /></div>
+          <GoSun className="text-3xl m-2" />
           :
-          <div className="text-lg"><GiMoon /></div>
+          <GiMoon className="text-3xl m-2"  />
         }
       </label>
     </div>

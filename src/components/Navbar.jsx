@@ -5,9 +5,10 @@ const Navbar = () => {
   const navLinks = 
   <>
     <li><a className="text-[#FF5555]">Home</a></li>
-    <li><a>About Us</a></li>
-    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#testimonial">Testimonial</a></li>
+    <li><a href="#faq">FAQ</a></li>
     <li><a href="#feature">Features</a></li>
+    <li><a href="#advantages">Advantages</a></li>
   </>
 
   return (
