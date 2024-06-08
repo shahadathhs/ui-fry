@@ -2,6 +2,7 @@ import Advantages from "./components/Advantages"
 import Banner from "./components/Banner"
 import Features from "./components/Features"
 import Navbar from "./components/Navbar"
+import Testimonial from "./components/Testimonial"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <div className="mt-[800px] md:mt-[500px]">
         <Advantages />
       </div>
+      <Testimonial />
     </div>
   )
 }

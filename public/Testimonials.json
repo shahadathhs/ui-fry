@@ -1,0 +1,32 @@
+[
+    {
+      "id": "item1",
+      "name": "Alice Johnson",
+      "reviewTitle": "Excellent Tool for Budgeting",
+      "review": "This app has transformed the way I manage my finances. The budgeting features are intuitive and easy to use. I highly recommend it to anyone looking to get their finances in order."
+    },
+    {
+      "id": "item2",
+      "name": "Bob Smith",
+      "reviewTitle": "Great for Small Businesses",
+      "review": "As a small business owner, this app has been invaluable. It helps me track expenses and revenue effortlessly. The reports are detailed and give me a clear picture of my financial health."
+    },
+    {
+      "id": "item3",
+      "name": "Catherine Lee",
+      "reviewTitle": "User-Friendly and Efficient",
+      "review": "I love how user-friendly this app is. Even with limited accounting knowledge, I can navigate through it and handle my accounts efficiently. The customer support is also fantastic!"
+    },
+    {
+      "id": "item4",
+      "name": "David Kim",
+      "reviewTitle": "Comprehensive Financial Insights",
+      "review": "The app provides comprehensive insights into my financial status. The analytics tools are top-notch, allowing me to make informed decisions. It's a must-have for anyone serious about their finances."
+    },
+    {
+      "id": "item5",
+      "name": "Emily Davis",
+      "reviewTitle": "Highly Recommended",
+      "review": "I have tried several financial accounting apps, but this one stands out. Its features are robust, and it integrates seamlessly with my bank accounts. Highly recommended for personal and professional use."
+    }
+]
