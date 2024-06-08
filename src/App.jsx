@@ -1,5 +1,6 @@
 import Advantages from "./components/Advantages"
 import Banner from "./components/Banner"
+import Faq from "./components/Faq"
 import Features from "./components/Features"
 import Navbar from "./components/Navbar"
 import Testimonial from "./components/Testimonial"
@@ -15,6 +16,7 @@ function App() {
         <Advantages />
       </div>
       <Testimonial />
+      <Faq />
     </div>
   )
 }

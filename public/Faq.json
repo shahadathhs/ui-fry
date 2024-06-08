@@ -1,0 +1,26 @@
+[
+    {
+      "question": "How do I set up my first budget?",
+      "answer": "To set up your first budget, navigate to the 'Budget' section of the app, click on 'Create New Budget', and follow the prompts to input your income and expenses."
+    },
+    {
+      "question": "Can I connect my bank accounts to the app?",
+      "answer": "Yes, you can securely connect your bank accounts to the app. Go to the 'Accounts' section, select 'Add Bank Account', and follow the instructions to link your account."
+    },
+    {
+      "question": "How do I generate financial reports?",
+      "answer": "You can generate financial reports by going to the 'Reports' section. Choose the type of report you need, select the date range, and click 'Generate Report' to view or download it."
+    },
+    {
+      "question": "Is my financial data secure?",
+      "answer": "Yes, your financial data is secure. We use advanced encryption methods to protect your data and ensure that it is stored safely. Your privacy is our top priority."
+    },
+    {
+      "question": "Can I use the app for my small business?",
+      "answer": "Absolutely! The app is designed to cater to both personal and small business accounting needs. You can track expenses, manage invoices, and monitor cash flow with ease."
+    },
+    {
+      "question": "How do I contact customer support?",
+      "answer": "If you need assistance, you can contact our customer support team by going to the 'Help' section in the app and clicking on 'Contact Support'. Our team is available 24/7 to help you."
+    }
+]

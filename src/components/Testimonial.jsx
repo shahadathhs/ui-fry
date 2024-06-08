@@ -19,7 +19,7 @@ const Testimonial = () => {
       setTestimonials(data)
     })
   },[])
-  console.log(testimonials)
+  //console.log(testimonials)
 
 
   return (
@@ -49,7 +49,7 @@ const Testimonial = () => {
           <img src={circle} className="absolute z-10 xl:top-44" alt="" />
         </div>
         
-        <div className="h-[400px] lg:h-[500px] p-9 mt-96 md:mt-0">
+        <div className="h-[500px] p-9 mt-96 md:mt-0">
           <div className="carousel w-full h-full">
             {
               testimonials.map(testimonial => 
