@@ -47,22 +47,22 @@ const Banner = () => {
       <div>
         <div>
           <div className="relative">
-            <img src={iphone1} className="absolute z-30 top-0 left-0 h-[400px] md:h-auto" alt="iPhone 1" />
+            <img src={iphone1} className="absolute z-30 top-0 left-0 h-[340px] lg:h-[600px]" alt="" />
             
             <img src={iphone2} 
-            className="absolute z-20 top-4 md:top-8 lg:top-16 h-[400px]  md:h-auto
-            left-8 lg:left-16" alt="iPhone 2" />
+            className="absolute z-20 top-4 md:top-8 lg:top-16 h-[340px] lg:h-[600px]
+            left-8 lg:left-16" alt="" />
             
             <img src={iphone3} 
-            className="absolute z-10 top-8 md:top-16 lg:top-32 h-[400px] md:h-[490px] lg:h-[650px] xl:h-auto
-            left-16 lg:left-32" alt="iPhone 3" />
+            className="absolute z-10 top-8 md:top-16 lg:top-32 h-[340px] lg:h-[600px]
+            left-16 lg:left-32" alt="" />
           </div>
         </div>
 
         <div>
           <div className="relative">
-            <img src={threeCircle} alt="Three Circles" />
-            <img src={rightCircle} className="absolute top-1/2 h-[200px] md:h-[250px] lg:h-[400px] right-0" alt="Right Circle" />
+            <img src={threeCircle} alt="" />
+            <img src={rightCircle} className="absolute top-1/2 h-[200px] md:h-[250px] lg:h-[400px] right-0" alt="" />
           </div>
         </div>
 
