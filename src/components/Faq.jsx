@@ -11,7 +11,7 @@ const Faq = () => {
       setFaqs(data)
     })
   },[])
-  console.log(faqs)
+  //console.log(faqs)
 
   return (
     <section className="mt-10 p-4">

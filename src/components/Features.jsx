@@ -9,7 +9,7 @@ import rightCircle from "../assets/images/features/Group 35897.png";
 
 const Features = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-8 p-4 relative">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-8 p-4 relative" id="feature">
       {/* left || top */}
       <div className="mt-8 md:mt-0">
         <div className="relative">

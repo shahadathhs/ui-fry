@@ -6,8 +6,8 @@ const Navbar = () => {
   <>
     <li><a className="text-[#FF5555]">Home</a></li>
     <li><a>About Us</a></li>
-    <li><a>Pricing</a></li>
-    <li><a>Features</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#feature">Features</a></li>
   </>
 
   return (
