@@ -6,10 +6,12 @@ This is a responsive landing page built with Vite, React, and Tailwind CSS.
 
 1. Clone the repository:
    git clone <https://github.com/shahadathhs/ui-fry.git>
-   cd ui-fry
+   
+2. Enter the folder
+    cd ui-fry
 
-2. Install dependencies:
-  npm install
+3. Install dependencies:
+    npm install
 
-3. Run the development server:
+4. Run the development server:
     npm run dev
